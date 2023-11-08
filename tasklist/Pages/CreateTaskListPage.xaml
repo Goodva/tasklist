@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tasklist.Pages.CreateTaskListPage"
+             Title="CreateTaskListPage">
+    <VerticalStackLayout>
+        <Frame
+            WidthRequest="300"
+            Padding="15"
+            Margin="0, 10, 0, 0"
+            BackgroundColor="White">
+
+            <Label 
+                Text="создание обьекта в todo лист:"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                TextColor="Gray"
+                Margin="0, 20, 0, 0"/>
+
+            <Entry
+                x:Name="entryname"
+                TextColor="#75646C"
+                BackgroundColor="#f6f6f6"
+                FontSize="15"
+                FontAttributes="Bold"
+                Margin="0, 35, 0, 0"
+                />
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>
